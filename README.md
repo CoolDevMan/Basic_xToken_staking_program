@@ -18,6 +18,18 @@ Using Anchor, we'd like you to build a basic xToken staking program. A user shou
   ```
   solana config set --url localhost
   ```
+
+- create solana address
+  ```
+  solana-keygen new 
+  
+  //If your account already exists, please create a new account.
+  solana-keygen new --force
+  
+  //check solana address
+  solana address
+  ```
+  
 - build
   ```
   anchor build
